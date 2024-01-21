@@ -3,7 +3,7 @@ const getListStudents = () => {
         {
             id: 1,
             firstName: 'Guillaume',
-            lkocation: 'San Francisco'
+            location: 'San Francisco'
         },
         {
             id: 2,
