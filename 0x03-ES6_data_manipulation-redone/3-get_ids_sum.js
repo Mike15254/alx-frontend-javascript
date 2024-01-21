@@ -1,5 +1,5 @@
 const getStudentIdSum = (arr) => {
-    return arr.id = el.reduce((acc, curr) => acc + curr, 0);
+    return arr.reduce((acc, currArr) => acc + currArr.id, 0);
 }
 
 export default getStudentIdSum;
