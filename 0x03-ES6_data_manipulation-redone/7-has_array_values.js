@@ -1,7 +1,4 @@
-const hasValuesFromArray = (name) => {
-    return [
-        {name: Mike}
-    ]
-}
-
-export default hasValuesFromArray;
+export default function setFromArray(set, array) {
+    return array.every((el) => set.has(el));
+  }
+  
