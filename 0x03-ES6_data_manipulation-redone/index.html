@@ -1,0 +1,64 @@
+<!-- dheeraj/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Dheeraj Mutyala. CS699C Professional Seminar</h2>
+    <a href="../../stud699c.html">Students</a>
+    <h4>About Me</h4>
+    <p>Back to class <a href="https:www.rivier.edu">Riv Uni</a><br>My Courses</p>
+    <li>Information Technology</li>
+    <li>Data Base Managment System</li>
+    <h3>Project Ideas for web From Class</h3>
+    <li>Leaf disease predictaion web Platfom</li>
+    <li>A Hr resume scanning system</li>
+    <h4>My Picture </h4>
+    <img src="./myImage.jpg" alt="My picture" width="500" height="400">
+    <ol>
+        <li>Practice 1: <a href="??practie1.pdf">How to install AVD</a></li>
+        <li>Practice 2: <a href="aboutMe.html">Aboutme html file</a></li>
+    </ol>
+    <h3>A Report on How To Install A Webserver On My Laptop.</h3>
+    <p>This guide will focus on installing Apache, one of the most popular web servers, on a Windows laptop. Apache is a
+        free, open-source software that runs on over half of the world's web servers. It's part of the LAMP (Linux,
+        Apache, MySQL, PHP/Python/Perl) stack, but it can also be installed on Windows and other operating systems.
+
+    <h4>Step 1: Download Apache for Windows</h4>
+    Visit the Official Apache Website: Navigate to the Apache HTTP Server Project website at
+    <a href="http://httpd.apache.org/">apache.org</a>. <br>
+    Find a Windows Binary: Apache itself does not provide binary releases for Windows, but you can use third-party
+    distributions like ApacheHaus, Apache Lounge, or Bitnami WAMP Stack. For this guide, we'll use Apache Lounge
+    because of its popularity and ease of use. <br>
+    Download: Go to <a href="https://www.apachelounge.com/download/ ">download apache</a> and download the latest version of the Apache binaries
+    for Windows. Make sure to choose the version that matches your system architecture (32-bit or 64-bit).
+    <h4>Step 2: Install Apache </h4>
+    Extract the Downloaded File: Once the download is complete, extract the ZIP file to your desired location. A
+    common practice is to extract it to the root of your C drive, resulting in C:\Apache24 or a similar folder,
+    depending on the version. <br>
+    Open the Command Prompt as Administrator: You will need administrative privileges to install and run the web
+    server. <br>
+    Install Apache as a Windows Service: Navigate to the bin directory within your Apache installation folder in the
+    command prompt (cd C:\Apache24\bin) and run the command httpd.exe -k install to install Apache as a service.
+    <h4>Step 3: Configure Apache</h4>
+    Edit the Configuration File: Navigate to the conf folder in your Apache installation directory
+    (C:\Apache24\conf) and open the httpd.conf file in a text editor. <br>
+    Listen on Port 80: Ensure that the line Listen 80 is present and uncommented to have Apache listen on the
+    default HTTP port. <br>
+    Server Name: Add a line ServerName localhost:80 to define your server name and port. This is necessary to
+    prevent Apache from starting with warnings. <br>
+    Save the Configuration File: After making the necessary changes, save and close the httpd.conf file.
+    <h4>Step 4: Start Apache</h4>
+    Start the Apache Service: Go back to the Command Prompt and start the Apache service by running httpd.exe -k
+    start. <br>
+    Verify the Installation: Open a web browser and navigate to http://localhost/. If Apache is running, you should
+    see the Apache HTTP Server test page.</p>
+
+</body>
+
+</html>
